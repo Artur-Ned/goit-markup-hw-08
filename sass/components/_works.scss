@@ -1,0 +1,51 @@
+.our-job {
+  margin-bottom: 98px;
+
+  & h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 167px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+
+.list-job-img {
+  position: relative;
+}
+
+.list-job-item {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.list-job {
+  display: flex;
+}
+
+.our-job-cont {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  padding: 27px 82px;
+  background-color: rgba(47, 48, 58, 0.8);
+  bottom: 0%;
+}
+
+.our-job-text {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--background-main-color);
+}

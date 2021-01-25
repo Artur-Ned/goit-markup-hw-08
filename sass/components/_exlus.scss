@@ -1,0 +1,52 @@
+.exlus-list {
+  display: flex;
+}
+
+.exlus-item {
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.exclusivity {
+  margin-bottom: 94px;
+}
+
+.exluse-box {
+  display: block;
+  width: 270px;
+}
+
+.exclus-title {
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--all-text-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.exclus-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
+.softskil-exlus-icon {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.exlus-box-border {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  margin-bottom: 30px;
+}

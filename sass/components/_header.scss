@@ -1,0 +1,139 @@
+.header .conteiner {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  position: relative;
+}
+.heder-border {
+  border-bottom: 1px solid #ececec;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.adress-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.adress-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header .adress {
+  margin-left: auto;
+}
+
+.header .logotype {
+  margin-right: 50px;
+}
+
+.logotype {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--accent-color-heder);
+  display: block;
+  outline: none;
+}
+
+.log-part2 {
+  color: var(--all-text-color);
+  outline: none;
+}
+.nav-list-link {
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--all-text-color);
+  text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color-heder);
+    outline: none;
+  }
+}
+
+.nav-item-line {
+  content: " ";
+  position: absolute;
+  bottom: -33px;
+  background: var(--accent-color-heder);
+  border-radius: 2px;
+  border-style: none;
+  width: 100%;
+  height: 4px;
+}
+
+.nav .nav-list-link.current {
+  color: var(--accent-color-heder);
+}
+
+.adress-list a,
+.adress-footer a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142px;
+  letter-spacing: 0.02em;
+  color: var(--gray);
+  font-style: normal;
+  text-decoration: none;
+  min-width: 161px;
+}
+
+.header-tel {
+  display: flex;
+  align-items: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color-heder);
+    text-decoration: none;
+    outline: none;
+
+    & .heder-tell-icon {
+      fill: var(--accent-color-heder);
+      outline: none;
+    }
+  }
+}
+
+.header-mail {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color-heder);
+    text-decoration: none;
+    outline: none;
+
+    & .heder-mail-icon {
+      fill: var(--accent-color-heder);
+      outline: none;
+    }
+  }
+}
+
+.heder-mail-icon,
+.heder-tell-icon {
+  fill: var(--gray);
+  margin-right: 10px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
